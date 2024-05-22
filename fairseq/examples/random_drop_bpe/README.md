@@ -1,0 +1,3 @@
+An example invocation is: `bash train-random-drop.sh --experiment-name "random_drop_example" --src-bpe-tokens 6000 --tgt-bpe-tokens 6000 --random-drop-n 2000 --random-drop-k 1000 --seed 100 --bpe-seed 0 --device 0`
+
+No modification of the script should be necessary. The output will be in `fairseq/experiment_outputs/<EXPERIMENT_NAME>` (the experiment name is slightly different than what you put into that parameter, it is a concatenation of all the parameters so you can uniquely identify it).
